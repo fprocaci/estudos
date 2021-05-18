@@ -1,2 +1,3 @@
-# estudos
-Estudos .Net
+# Estudos .Net Core
+Comandos:
+
