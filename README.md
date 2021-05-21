@@ -14,7 +14,7 @@ Comandos:
 - Compilador do C# é o __Roslyn__ 
 - O código fonto escrito em C# é compilado em uma **linguagem intermadiária** __(IL)__
 - O código e os recursos de **(IL)** são armazenados no disco em um arquivo executável chamado assembly, geralmente com uma extensão **.exe** ou **.dll** 
-- Quando o programa C# é executado, o assembly é carregado no CLR, em seguda o CLR executará a compilção ***just in time (JIT)*** para converter o código IL em instruções de máquina nativas
+- Quando o programa C# é executado, o assembly é carregado no CLR, em seguida o CLR executará a compilção ***just in time (JIT)*** para converter o código IL em instruções de máquina nativas
 - CLR fornece também outros serviços:
   - Garbage Collector => é um processo usado para a automação do gerenciamento de memória. Com ele é possível recuperar uma área de memória inutilizada por um programa, o que pode evitar problemas de vazamento de memória, resultando no esgotamento da memória livre para alocação.
   - Exception Handler => é o processo de responder à ocorrência de *exceções* - condições anômalas ou excepcionais que requerem processamento especial - durante a execução de um programa.
@@ -22,7 +22,26 @@ Comandos:
 - Como Funciona:
   - Arquivo C# > Compilador Roslyn > Managed Assembly DLL ou EXE > CLR / .Net Class Libraries > Linguagem de máquina
 - Estruturas de programa:
-  - 
+  - programas
+    - Consistem em um ou mais arquivos
+  - namespaces
+    - Declaram tipos, que contem membros e podem ser organizados em namespaces
+  - tipos
+    - Classes e interfaces são exemplos de tipos
+  - membros
+    - Campos, métodos, propriedades e eventos são exemplos de membros
+  - assemblies
+
+### 2 - Tipos, Valor e Referência
+
+- Numéricos - **byte, short, int, long, sbyte, ushort, uint, ulong**
+- Caracteres Unicode - **char**
+- Pontos flutuantes - **float, double, decimal**
+- Booleano - **bool**
+- Tipos de referência:
+  - Tipos Classe - **class, object, string**
+  - Tipos Arrays - **int[], int[,], etc...**
+  - interface, delegate
 
 
 
