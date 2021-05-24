@@ -32,16 +32,37 @@ Comandos:
     - Campos, métodos, propriedades e eventos são exemplos de membros
   - assemblies
 
-### 2 - Tipos, Valor e Referência
+### 2 - Conhecendo variáveis e instruções
+
+#### Tipos Valor:
 
 - Numéricos - **byte, short, int, long, sbyte, ushort, uint, ulong**
 - Caracteres Unicode - **char**
 - Pontos flutuantes - **float, double, decimal**
 - Booleano - **bool**
-- Tipos de referência:
-  - Tipos Classe - **class, object, string**
-  - Tipos Arrays - **int[], int[,], etc...**
-  - interface, delegate
 
+#### Tipos de referência:
 
+- Tipos Classe - **class, object, string**
+- Tipos Arrays - **int[], int[,], etc...**
+- interface, delegate
+
+#### Instruções:
+
+- { Bloco de instruções entre as chaves }
+- Condicionais
+  - if
+  - switch
+- Repetição
+  - while
+  - do
+  - for
+  - foreach
+- Outras que nos auxiliam
+  - break
+  - continue
+  - return
+  - throw
+  - try .. catch .. finally
+  - using
 
