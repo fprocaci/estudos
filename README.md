@@ -66,3 +66,46 @@ Comandos:
   - try .. catch .. finally
   - using
 
+### 3 - Classes e objetos essenciais em C#
+
+#### O que são Classes e Objetos em C#:
+
+- Classes são os tipos mais fundamentais de C#
+- Uma Classe **é uma estrutura de dados que combina estado(campos) e ações(métodos)**
+- Objetos são **instâncias** de uma classe
+- As classes suportam **herança e polimorfismo**
+- A memória de um objeto é recuperada automaticamente quando o objeto não está mais acessível
+- Membros de uma classe podem ser estáticos ou membros de instância 
+- Membros estáticos pertecem a classe e membros de instância pertencem ao objeto
+- Constantes, variáveis, métodos, propriedades, construtores e etc...
+- Cada membro de uma classe tem uma acessibilidades associada, que controla as regiões do texto do programa que podem acessar o membro
+  - public
+  - protect
+  - internal
+  - private
+- Herança
+  - Uma declaração de classe pode especiificar uma classe base, herddando os membros public, internal e protected da classe base
+  - Omitir uma especificação de classe base é o mesmo que derivar do tipo object
+- Método
+  - Método é um membro que implementa uma computação ou ação que pode ser executada por um objeto ou classe
+  - Os métodos podem ter uma lista de parâmetros, que representam valores ou referências de variáveis passados para o método, e um tipo de retorno, que especifica o tipo do valor calculado e retornado pelo método
+
+### 4 - Trabalhando com structs, interfaces e enums
+
+#### O que são Structs:
+
+- Como as classes, **as structs são estruturas de dados que podem conter membros de dados e membros de ação**, mas, diferentemente das classes, **as structs são tipos de valor e não requerem alocação de heap**
+- Uma **variável de um tipo de struct** armazena diretamente os dados da estrutura, enquanto uma **variável de um tipo de classe** armazena uma referência a um objeto alocado na memória
+- Structs não aceitam herança determinada pelo desenvolvedor
+- São úteis para pequenas estruturas de daods que possuem semântica de valor : números complexos, pontos em um sistema de coordenadas ou pares de chave-valor em um dicionárioi são bons exemplosdded utilização
+- O uso de structs em vez de classes para equenas estruturas dse dados pode fazer uma grande diferença no número de alocação de memória
+- Construtores de structs são chamados com o operaddor new, semelhnte a um construtor de classe, mas em vez de alocar dinamicmente um objeto no heap gerenciado e retornar uma referência a ele, um construtor struct simplesmente reetorna o próprio valor struct (normalmente em um local temporário na stack), e esse valor é copiado conforme necessário
+
+#### Entendendo a função de interfaces e enums:
+
+- 
+
+
+
+
+
